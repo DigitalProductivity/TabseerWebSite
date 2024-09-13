@@ -1,0 +1,118 @@
+.enter-otp-header-logo{
+    min-height:17vh;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.enter-otp-input{
+    gap:20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.enter-otp-input input{
+    max-width:40px;
+    height:40px;
+    text-align: center;
+    border:2px solid #ECECEC;
+    border-radius:4px;
+}
+.enter-otp-all-buttons{ 
+   min-width:30vw;
+}
+.enter-otp-resend{
+    color:#434345;
+    font-size:14px; 
+    min-width:50vw;
+    max-height:8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enter-otp-resend button{
+    background: none;
+    border: none;
+    color:#B48F5A;
+    cursor: pointer;
+}
+.code-verifid{
+    display:flex;
+    position:relative;
+    top:250px;
+    
+}
+
+ #enter-otp-back-button{
+    background-color:#E8DCCC;
+    padding:7px 70px;
+    border-radius:4px;
+    color:#B48F5A;
+    border:none;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enter-otp-button{
+    background-color:#B48F5A;
+    display: flex;
+    padding:7px 70px;
+    border-radius:4px;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+} 
+
+
+
+@media screen and (max-width:578px){
+    .enter-otp-left-container{
+        display:none;
+    }
+    #enter-otp-button, #enter-otp-back-button{
+      
+        padding:7px 40px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .enter-otp-left-container{
+        display:none;
+    }
+    .enter-otp-right-container{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        min-width:100vw;
+        min-height:100vh;
+    }
+    .enter-otp-header-title{
+        min-width:90vw;
+        margin-left:50px;
+    }
+    .enter-otp-header-logo{
+        justify-content:center;
+        align-items: center;
+    }
+    .otp-number-container{
+        min-width:20vw;
+        max-height:18vh;
+        gap:20px;
+        position:relative;
+        left:110px;
+    }
+    .enter-otp-all-buttons{
+        min-width:85vw;
+        margin-left:60px;
+        min-height:15vh;
+    }
+    .enter-otp-all-buttons button{
+        max-width:10vw;
+    }
+   
+
+}

@@ -1,0 +1,26 @@
+
+.review-empty {
+  animation-name:reviewAnimation;
+  animation-duration: 2s;
+ 
+  animation-iteration-count:infinite; 
+}
+
+@media screen and (max-width:576px){
+  .review-empty img{
+    width:40vw;
+    height: 20vh;
+  }
+ .session-time{
+  max-height:10vh;
+ }
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+  .contract-all{
+    max-width: 40vw;
+  }
+  .session-time{
+    max-height:10vh;
+   }
+}

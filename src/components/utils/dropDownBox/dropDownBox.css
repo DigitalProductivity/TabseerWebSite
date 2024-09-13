@@ -1,0 +1,15 @@
+.animated-box {
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  transition: transform 0.5s ease;
+}
+
+.slide-in {
+  transform: translateX(0);
+  display: block;
+}
+
+.slide-out {
+  transform: translateX(-100%);
+  display: none !important;
+}

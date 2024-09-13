@@ -1,0 +1,123 @@
+.collapsedContents {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  height: 90vh;
+  width: 100%;
+  /* position: fixed; */
+  /* top:100px; */
+  left: 0;
+  background-color: white;
+  border-right-color: #ececec;
+  border-right-style: solid;
+  border-right-width: 2px;
+
+  @media (width <=992px) {
+
+    position: absolute;
+    width: 300px
+  }
+}
+
+.loginNavStyles {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.closeButtonControl{
+  display: none;
+
+  @media (width<= 992px) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+.linkTag {
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.linkTag.active {
+  background-color: #B48F5A;
+  color: white
+}
+
+.navbarListItems {
+
+  list-style-type: none;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+
+}
+
+.collapsedContentsTranslate {
+  transform: translateX(0%);
+
+
+  @media (width <=992px) {
+    transform: translateX(-100%);
+
+  }
+}
+
+
+.navigationAnimation {
+  animation: slideIn 1s ease-in-out;
+
+}
+
+.navigationAnimationRevert {
+  animation: slideOut 1s ease-in-out;
+}
+
+@keyframes slideIn {
+
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+
+}
+
+@keyframes slideOut {
+
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+
+}
+
+.navCloseButton {
+  border: none;
+  color: #B48F5A;
+  background: none;
+
+}
+
+#traget {
+  transform: rotate(180deg);
+}
+
+.subProp {
+  border-bottom: 2px solid #ececec;
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+
+.subProp2 {
+  padding-top: 15px;
+}

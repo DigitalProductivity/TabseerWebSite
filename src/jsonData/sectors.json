@@ -1,0 +1,62 @@
+[
+    {
+        "id":"1",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Medical",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
+    },
+    {
+        "id":"2",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Judiciary",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+    },
+    {
+        "id":"3",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Transport",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+    },
+    {
+        "id":"4",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Medical Malpractice",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+    },
+    {
+        "id":"5",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Administration",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+    },
+    {
+        "id":"6",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Rights",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+    },
+    {
+        "id":"7",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"commercial",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard ."
+    },
+    {
+        "id":"8",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Economy",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+    },
+    {
+        "id":"9",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"Mineral",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ."
+    },
+    {
+        "id":"10",
+        "sectorIcon":"../../src/assets/images/landingPage/judge.png",
+        "sectorName":"High Court",
+        "details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ."
+    }
+]

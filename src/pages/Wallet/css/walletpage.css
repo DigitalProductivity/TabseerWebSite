@@ -1,0 +1,132 @@
+.wallet-name{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    min-height:5vh;
+    min-width:10vw;
+}
+.wallet-name-license{
+    min-height:10vh;
+    display: flex;
+    justify-content:space-between;
+    padding:20px;
+}
+.wallet-license-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height:13vh;
+    min-width:10vw;
+}
+
+.wallet-totalbalance{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    height:8vh;
+    padding:20px;
+    min-width:10vw;
+}
+.wallet-total-balance{
+    background: white; 
+    border-radius: 10px;
+     border: 1px #ECECEC solid;
+    min-width:34vw;
+    min-height:17vh;
+    display: flex;
+    justify-content:flex-start;
+}
+.wallet-img-balance-wrapper{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    min-width:20vw;
+    padding-left:20px;
+}
+.wallet-balance{
+    display: flex;
+}
+.wallet-main-container{
+    gap:30px;
+}
+.wallet-second-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.wallet-trans-history{
+    max-width:70vw;
+    display:flex;
+    color:#434345;
+    font-size:18px;
+    font-weight:600;
+}
+.wallet-trans-main-container{
+    max-width:76vw;
+    max-height:40vh;
+    display:flex;
+    flex-direction:column;
+    overflow:scroll;
+    scrollbar-width: none;
+
+}
+.wallet-status-date{
+    max-width:73vw;
+    height:35px;
+    display: flex;
+    justify-content:space-between;
+ }
+ .wallet-sts-all{
+    border-bottom: 1px solid #ECECEC;
+     display: flex;
+     flex-direction: column;
+   height:80px;      
+ }
+ .wallet-sar,.wallet-date{
+    width:60px;
+    color: #B48F5A; 
+    font-size: 16px; 
+}
+.wallet-case{
+    color: #434345; 
+    font-size: 14px;
+}
+.wallet-no-data{
+    border: 1px #C5C5C5 solid;
+    max-width:70vw;
+    height: 326px;
+    border-radius:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 838px) {
+    .wallet-left-sidebar {
+      display: none;
+    }
+    .wallet-main-container {
+     min-width:90vw;
+     gap:10px;
+     
+    }
+    .wallet-sts-all{
+      min-width:100vw;
+    }
+    
+  }
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    .wallet-main-container {
+      min-width:23vw;
+     }
+  }
+  
+
+  

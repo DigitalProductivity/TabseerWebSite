@@ -1,0 +1,61 @@
+#log {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.alignment {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: white;
+  width: 100%;
+}
+.alignmentTwo {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  color: white;
+  width: 100%;
+}
+
+.align-right {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 10px;
+}
+.align-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  width: fit-content;
+  justify-self: end;
+  color: white;
+  max-width: 50%;
+  overflow-wrap: break-word;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+
+.timestamp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.timestampReceive {
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  color: "white";
+}

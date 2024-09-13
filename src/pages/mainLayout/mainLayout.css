@@ -1,0 +1,16 @@
+.widthNavResponsive{
+    width: 20%;
+
+    @media (width <= 992px) {
+        width: unset;
+     }
+}
+
+
+.widthBodyResponsive{
+    width: 80%;
+
+     @media (width <= 992px) {
+        width: 100%;
+     }
+}

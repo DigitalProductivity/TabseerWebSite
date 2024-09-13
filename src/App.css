@@ -1,0 +1,285 @@
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 40%;
+
+  @media (width<= 992px) {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .popup {
+    width: 80%;
+  }
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0;
+}
+
+.page-link {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.round-button {
+  border-radius: 50%;
+}
+
+.active-button {
+  color: white;
+  background-color: #bb8d4f;
+}
+
+.activeButton {
+  color: white;
+  background-color: #bb8d4f;
+  padding: 10px 10px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.hjk {
+  padding: 5px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hjk:hover {
+  background-color: rgb(233, 226, 215);
+  color: #bb8d4f;
+}
+
+.widthProfileControl {
+  width: 50%;
+  scrollbar-width: none;
+
+  @media (width<=576px) {
+    width: 100%;
+  }
+}
+
+.widthParentResponsive {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @media (width <=992px) {
+    /* align-items: unset; */
+    display: unset;
+  }
+}
+
+.widthOneResponsive {
+  width: 20%;
+
+  @media (width <=992px) {
+    width: unset;
+  }
+}
+
+.widthResponsive {
+  width: 80%;
+
+  @media (width <=992px) {
+    width: 100%;
+    padding-left: unset;
+  }
+}
+
+#userName::placeholder {
+  color: black;
+  padding-left: 10px;
+  font-size: medium;
+}
+
+.paddingCssResponsive {
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+  @media (width<=992px) {
+    padding-left: unset;
+  }
+}
+
+.animatedUpDrag {
+  animation: dropUp 1s ease-in-out;
+  display: none;
+}
+
+@keyframes dropUpAnime {
+  from {
+    display: block;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  to {
+    display: none;
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+.animatedDrag {
+  animation: dropDownAnime 1s ease-in-out;
+}
+
+@keyframes dropDownAnime {
+  from {
+    display: none;
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    display: block;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Detailed Card */
+
+.widthDetailedCardsControl {
+  width: 75%;
+
+  @media (width<=992px) {
+    width: 90%;
+  }
+
+  @media (width<=576px) {
+    width: 100%;
+  }
+}
+
+.widthCardDetailsSubResponsive {
+  width: 100%;
+}
+
+.myRowProps {
+  padding-top: 10px;
+  height: 89vh;
+
+  @media (width<=992px) {
+    height: unset;
+  }
+}
+
+.myPropsColumn {
+  height: 150px;
+}
+
+.profilePageDetails {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+
+  @media (width<=992px) {
+    height: unset;
+    align-items: unset;
+  }
+}
+
+.paddingProfilePageThirdColumn {
+  @media (width<=992px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.termsPageWidthResponsive {
+  width: 95%;
+
+  @media (width<=992px) {
+    width: 100%;
+  }
+}
+
+.termsPageWidthResponsiveContents {
+  width: 75%;
+  @media (width<=576px) {
+    width: 90%;
+  }
+}
+
+.helpPageMain {
+  padding-top: 20px;
+  width: 90%;
+
+  @media (width<= 992px) {
+    width: 100%;
+  }
+}
+
+/* lawyerLoginNavbar */
+
+.linkTag {
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.linkTag.active {
+  background-color: #b48f5a;
+  color: white;
+}
+
+/* Profile */
+
+.nav-link {
+  color: #434345 !important;
+}
+
+.actives {
+  color: red !important;
+}
+
+/* reusableLooker css */
+
+.blurryHover {
+  transition: filter 0.3s ease-in-out;
+}
+
+.blurryHover:hover {
+  filter: blur(4px);
+}
+
+.curveLeftBottom {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 0 0 0 20px;
+}

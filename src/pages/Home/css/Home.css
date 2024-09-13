@@ -1,0 +1,119 @@
+
+h6{
+  color: #333;
+}
+.calalander-title{
+  font-size:22px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+#calalander-btn{
+  font-size:28px;
+  color:#B48F5A;
+  cursor: pointer;
+  background-color: transparent;
+  border:none;
+  border-radius:100px;
+}
+
+table {
+  position: relative;
+  top:20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.calendar-td.past-date{
+color: #ccc;
+}
+.calendar-td.past-date:hover{
+background-color:transparent;
+}
+
+thead th {
+ color:#B48F5A;
+  padding:5px;
+  font-size:12px;
+}
+
+.calendar-td {
+  text-align: center;
+  width:300px;
+  font-size: 12px;
+  padding: 10px;
+  color:black;
+}
+
+.calendar-td:hover {
+  background-color: #abcdef;
+  cursor: pointer;
+}
+.selected-date {
+  background-color: #B48F5A;
+  border-radius: 7%;
+}
+
+
+
+@media screen and (max-width:576px){
+
+.register-count{
+min-width:30vw;
+min-height:20vh;
+font-size: 22px;
+}
+.d-flex{
+  flex-direction: column;
+}
+
+
+.home-main-container{
+max-height:70vh;
+border: none;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+
+.register-count{
+min-width:30vw;
+min-height:10vh;
+font-size: 22px;
+}
+.chart-container{
+  max-height:35vh;
+}
+
+/* .chart-data{
+  max-height:20vh;
+  position: relative;
+  top:50px;
+} */
+.home-main-container{
+  max-height:60vh;
+  border: none;
+  display: block;
+  width: 100vw;
+}
+.home-right-inner-container{
+  width:95vw;
+  border:1px solid #C5C5C5;
+  border-radius:8px;
+  padding:10px;
+  max-height:10px;
+  min-height:30vh;
+  margin-top:30px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: center;
+}
+.chart-data{
+  max-height:20vh;
+  position: relative;
+  top:50px;
+}
+.home-right-container{
+  max-height:40vh;
+}
+}

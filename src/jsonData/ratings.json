@@ -1,0 +1,80 @@
+[
+    {
+        "id":"1",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"4",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"2",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"3",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"3",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"1",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"4",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"4",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"5",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"2",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"6",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"4",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"7",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"3",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"8",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"2",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"9",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"1",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"10",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"4",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    },
+    {
+        "id":"11",
+        "image":"../../src/assets/images/avatar.png",
+        "name":"mohammed",
+        "starRatingValue":"4",
+        "reviewPara":"lorem ipsum generate can be overwhelming but is good y'all know that right eh !"
+    }
+
+]

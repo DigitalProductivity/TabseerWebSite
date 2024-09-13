@@ -1,0 +1,15 @@
+[
+    
+    {
+        "userFirstName":"mohamed",
+        "userMiddleName":"Ahmed",
+        "userLastName":"Hamdy",
+        "mobileNumber":"0569637322",
+        "email":"mohamed@gmail.com",
+        "nationalId":"../../../src/assets/images/id.jpg",
+        "iban":"SA038000 0000 1016 7519",
+        "sector":[
+            "inhertance", "crime" , "medical"
+        ]
+    }
+]

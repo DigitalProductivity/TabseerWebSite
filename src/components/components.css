@@ -1,0 +1,23 @@
+.widthPropControl{
+    height: 200px;
+    width: 400px;
+
+    @media (width<= 576px) {
+        width:335px
+        
+    }
+}
+
+
+.reviewWidthControl{
+    width:"40px"
+}
+
+.active-tab{
+    box-shadow: none !important;
+    color:white;
+    background-color: #bb8d4f;
+    /* border-bottom: 3px solid #bb8d4f; */
+   
+  
+}
